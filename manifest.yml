@@ -1,0 +1,5 @@
+---
+applications:
+- name: xunit-tested-dotnetcore
+  memory: 256M
+  instances: 1
