@@ -3,3 +3,4 @@ applications:
 - name: xunit-tested-dotnetcore
   memory: 256M
   instances: 1
+  buildpack: dotnet_core_buildpack
