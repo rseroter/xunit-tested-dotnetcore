@@ -23,6 +23,18 @@ namespace tested_core_app.Controllers
             return "pivotal";
         }
 
+        // GET api/values/5/status
+        [HttpGet("{id}/status")]
+        public string GetPublicStatus(int id)
+        {
+            if(id > 0 && id <= 10) {
+            return "public";
+            }
+            else { 
+                return "private";
+            }
+        }
+
         // POST api/values
         [HttpPost]
         public void Post([FromBody]string value)
