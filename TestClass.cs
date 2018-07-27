@@ -20,7 +20,7 @@ namespace unittests {
         [InlineData(1)]
         [InlineData(3)]
         [InlineData(9)]
-        [InlineData(20)]
+        //[InlineData(20)]
         public void Test2(int value) {
             Assert.Equal("public", _vc.GetPublicStatus(value));
         }
