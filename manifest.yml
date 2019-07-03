@@ -4,4 +4,4 @@ applications:
   memory: 512M
   instances: 1
   buildpack: dotnet_core_buildpack
-  path: /extract/compiled-app
+  path: .././extract/compiled-app
