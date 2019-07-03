@@ -4,4 +4,4 @@ applications:
   memory: 256M
   instances: 1
   buildpack: dotnet_core_buildpack
-  path: /tmp/build/put/seroter-source
+  path: /extract/compiled-app
